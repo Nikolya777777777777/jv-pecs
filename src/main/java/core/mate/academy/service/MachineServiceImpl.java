@@ -9,14 +9,15 @@ import java.util.List;
  */
 public class MachineServiceImpl implements MachineService{
     @Override
-    public List<? extends Machine> getAll(List <? extends Machine> machines) {
+    public List<? extends Machine> getAll(List machines) {
         return machines;
     }
 
     @Override
     public void fill(List<? super Machine> machines, Machine value) {
-        machines.add(value);
-
+        for (int i = 0; i < machines.size(); i++) {
+            machines.add(value);
+        }
     }
 
     @Override
