@@ -5,6 +5,7 @@ package core.mate.academy.model;
  * Do not remove no-field constructor
  */
 public class Truck extends Machine {
+    int width;
     public Truck() {
     }
 
