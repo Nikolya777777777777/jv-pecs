@@ -18,7 +18,7 @@ public interface MachineService <T extends Machine>{
      * @param type - any class of Machine sub class. For example: Truck.class or Bulldozer.class
      * @return the list of machines
      */
-    List<? extends Machine> getAll(List<? extends T> type);
+    List getAll(List<? extends T> type);
 
     /**
      * Fill the machines list with passed value
