@@ -5,7 +5,8 @@ package core.mate.academy.model;
  * Do not remove no-args constructor
  */
 public class Bulldozer extends Machine {
-    int widthOfScoop;
+    private int widthOfScoop;
+
     public Bulldozer() {
     }
 
